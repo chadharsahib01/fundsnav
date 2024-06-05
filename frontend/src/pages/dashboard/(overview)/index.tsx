@@ -6,7 +6,7 @@ import { linechart_data } from "@/components/charts/line/lineChartSampleData";
 import DashboardHeader from "@/components/headers/dashboardHeader";
 import SpinnerLoader from "@/components/loaders/spinnerLoader";
 import Stat from "@/components/stats/stat";
-import { useNewsModalStore } from "@/lib/store";
+import { useNewsModalStore } from "@/utils/store";
 
 import dynamic from "next/dynamic";
 const LineChart = dynamic(() => import("@/components/charts/line/lineChart"), {

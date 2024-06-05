@@ -1,4 +1,4 @@
-import { useNewsModalStore } from "@/lib/store";
+import { useNewsModalStore } from "@/utils/store";
 import NewsModal from "./components/newsModal";
 
 export default function DashboardModals() {

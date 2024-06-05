@@ -1,4 +1,4 @@
-import { useCurrentThemeStore } from "@/lib/store";
+import { useCurrentThemeStore } from "@/utils/store";
 import React from "react";
 import { useEffect, useLayoutEffect } from "react";
 import { themeChange } from "theme-change";

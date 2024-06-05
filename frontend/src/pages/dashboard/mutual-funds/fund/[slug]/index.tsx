@@ -14,7 +14,7 @@ import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import SpinnerLoader from "@/components/loaders/spinnerLoader";
 import useSWR from "swr";
-import fetcher from "@/lib/fetcher";
+import fetcher from "@/utils/fetcher";
 import Head from "next/head";
 
 const LineChart = dynamic(() => import("@/components/charts/line/lineChart"), {

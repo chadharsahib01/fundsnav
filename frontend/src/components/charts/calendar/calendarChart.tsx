@@ -1,4 +1,4 @@
-import { useCurrentThemeStore } from "@/lib/store";
+import { useCurrentThemeStore } from "@/utils/store";
 import { ResponsiveCalendar, ResponsiveCalendarCanvas } from "@nivo/calendar";
 import { dark_theme, light_theme, light_theme_colors, dark_theme_colors } from "../chartTheme";
 import Moment from "react-moment";

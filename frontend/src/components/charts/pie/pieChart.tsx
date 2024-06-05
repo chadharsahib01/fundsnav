@@ -1,4 +1,4 @@
-import { useCurrentThemeStore } from "@/lib/store";
+import { useCurrentThemeStore } from "@/utils/store";
 import { ResponsivePie } from "@nivo/pie";
 import { dark_theme, light_theme, light_theme_colors, dark_theme_colors } from "../chartTheme";
 import truncateEllipses from "@/common/utils/truncateEllipsis";

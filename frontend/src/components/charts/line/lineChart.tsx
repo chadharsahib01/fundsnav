@@ -2,7 +2,7 @@ import { ResponsiveLine, ResponsiveLineCanvas } from "@nivo/line";
 import { dark_theme, light_theme } from "@/components/charts/chartTheme";
 // import { light_theme_colors, dark_theme_colors } from "@/components/charts/chartTheme";
 import getFormatProperties from "@/components/charts/line/lineChartFormatter";
-import { useCurrentThemeStore } from "@/lib/store";
+import { useCurrentThemeStore } from "@/utils/store";
 import Moment from "react-moment";
 import NoDataAvailable from "@/components/misc/noDataAvailable";
 
