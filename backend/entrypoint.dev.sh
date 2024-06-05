@@ -16,7 +16,7 @@ pip install -r requirements.txt | grep -v 'already satisfied'
 echo "Collecting Static Files"
 python manage.py collectstatic --no-input
 
-Check if tables exist in the database
+# Check if tables exist in the database
 TABLE_COUNT=$(python manage.py count_tables)
 
 echo "Run Migrations"

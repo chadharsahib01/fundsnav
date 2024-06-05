@@ -36,7 +36,7 @@ environments:
   prod:
     cpu: 256
     memory: 512
-    count: 1
+    count: 0
     image:
       build: backend/Dockerfile.prod
       port: 8000

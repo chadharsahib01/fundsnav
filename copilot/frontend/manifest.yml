@@ -30,7 +30,7 @@ environments:
   prod:
     cpu: 512
     memory: 1024
-    count: 1
+    count: 0
     image:
       build: frontend/Dockerfile.prod
       port: 3000
