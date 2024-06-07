@@ -317,11 +317,10 @@ if DEBUG:
         }
     }
 else:
-    ALLOWED_HOSTS = ["fundsnav.abdullahjaswal.com", "www.fundsnav.abdullahjaswal.com"]
+    ALLOWED_HOSTS = ["fundsnav.abdullahjaswal.com"]
 
     CORS_ALLOWED_ORIGINS = [
         "https://fundsnav.abdullahjaswal.com",
-        "https://www.fundsnav.abdullahjaswal.com",
     ]
 
     REST_FRAMEWORK["DEFAULT_RENDERER_CLASSES"] = [
