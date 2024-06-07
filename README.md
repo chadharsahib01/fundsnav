@@ -4,7 +4,7 @@
 
 ![Home- FundsNav](./support/home-dark.png)
 
-FundsNav (https://fundsnav.com) - High Performance Mutual Funds Analysis Platform with over 200+ listed funds of all the asset management companies present in Pakistan.
+FundsNav (https://fundsnav.abdullahjaswal.com) - High Performance Mutual Funds Analysis Platform with over 200+ listed funds of all the asset management companies present in Pakistan.
 
 Provides a detailed analysis of funds with the following features:
 
