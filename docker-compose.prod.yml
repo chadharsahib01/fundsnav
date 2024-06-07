@@ -7,7 +7,6 @@ services:
     entrypoint: /frontend/entrypoint.prod.sh
     volumes:
       - ./frontend:/frontend
-      - node_modules:/frontend/node_modules
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "3000:3000"
@@ -46,7 +45,6 @@ services:
 
 volumes:
   static:
-  node_modules:
   redis-data:
 
 
