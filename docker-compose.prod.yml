@@ -36,8 +36,8 @@ services:
   fn-redis:
     image: redis:latest
     container_name: fn-redis
-    ports:
-      - "6379:6379"
+    expose:
+      - "6379"
     command: redis-server --appendonly yes
     volumes:
       - redis-data:/data
