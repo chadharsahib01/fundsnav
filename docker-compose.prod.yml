@@ -30,7 +30,20 @@ services:
     networks:
       - staging
     depends_on:
+      - fn-db
       - fn-redis
+  fn-db:
+    image: postgres:alpine
+    container_name: fn-db
+    command: postgres -c 'max_connections=500' -c 'shared_buffers=500MB'
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env.db
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - staging
   fn-redis:
     image: redis:latest
     container_name: fn-redis
@@ -44,6 +57,7 @@ services:
 
 volumes:
   static:
+  db-data:
   redis-data:
 
 
