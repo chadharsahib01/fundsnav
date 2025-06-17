@@ -1,10 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  transpilePackages: ["@nivo"],
-  experimental: {
-    esmExternals: "loose",
-  },
-};
+const withTM = require('next-transpile-modules')([]);
 
-module.exports = nextConfig;
+module.exports = withTM({
+  swcMinify: false,
+  compiler: {
+    swc: false
+  }
+});
